@@ -9,6 +9,22 @@
     "mixIn": 4,
     "shortCode": "XMR"
   },
+    "sup": {
+    "funcFile": "./lib/coins/sup.js",
+    "paymentFile": "./payment_systems/sup.js",
+    "sigDigits": 100000000,
+    "name": "The Superior Coin",
+    "mixIn": 6,
+    "shortCode": "SUP"
+  },
+    "dero": {
+    "funcFile": "./lib/coins/dero.js",
+    "paymentFile": "./payment_systems/dero.js",
+    "sigDigits": 1000000000000,
+    "name": "Dero",
+    "mixIn": 5,
+    "shortCode": "DERO"
+  },
   "krb": {
     "funcFile": "./lib/coins/krb.js",
     "paymentFile": "./payment_systems/krb.js",
