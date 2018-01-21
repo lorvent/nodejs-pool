@@ -40,5 +40,15 @@
     "name": "Aeon Coin",
     "mixIn": 4,
     "shortCode": "AEON"
+  },
+  "fno": {
+    "funcFile": "./lib/coins/fno.js",
+    "paymentFile": "./payment_systems/fno.js",
+    "sigDigits": 1000000000000,
+    "name": "Fonero",
+    "mixIn": 13,
+    "shortCode": "FNO"
   }
+}
+
 }
