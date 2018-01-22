@@ -24,7 +24,7 @@ sudo mv libg* /usr/lib/
 cd ~
 sudo systemctl enable ntp
 cd /usr/local/src
-sudo cp ~/nodejs-pool/deployment/daemon.service /lib/systemd/system/
+sudo cp ~/nodejs-pool/deployment/coindaemon.service /lib/systemd/system/
 sudo useradd -m coindaemon -d /home/coindaemon
 sudo systemctl coindaemon-reload
 sudo systemctl enable coindaemon
