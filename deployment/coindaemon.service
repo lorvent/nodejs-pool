@@ -1,0 +1,13 @@
+[Unit]
+Description=Coin Daemon
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart=/usr/local/src/coin/build/release/bin/coind
+Restart=always
+User=coindaemon
+
+[Install]
+WantedBy=multi-user.target
