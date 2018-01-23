@@ -48,5 +48,13 @@
     "name": "Fonero",
     "mixIn": 13,
     "shortCode": "FNO"
+  },
+  "xun": {
+    "funcFile": "./lib/coins/xun.js",
+    "paymentFile": "./payment_systems/xun.js",
+    "sigDigits": 1000000,
+    "name": "UltraNote",
+    "mixIn": 3,
+    "shortCode": "XUN"
   }
 }
